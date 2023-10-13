@@ -1,0 +1,13 @@
+prefix=c:/1_Projects/texi_tip/venv/Library
+exec_prefix=c:/1_Projects/texi_tip/venv/Library
+libdir=c:/1_Projects/texi_tip/venv/Library/lib
+sharedlibdir=c:/1_Projects/texi_tip/venv/Library/lib
+includedir=c:/1_Projects/texi_tip/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
